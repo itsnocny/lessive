@@ -9,6 +9,16 @@ should work, with no guarantee.
 
 The app is available in English, French and Polish.
 
+## Screenshots
+
+| Home | Program settings | Holding the phone |
+|---|---|---|
+| ![Home screen with the last wash and usual programs](docs/screenshots/home.png) | ![Program screen with duration, temperature, spin and start time](docs/screenshots/program.png) | ![Sheet asking to hold the phone on the machine's NFC logo](docs/screenshots/launch.png) |
+
+| Program suggestion | Machine | Error codes |
+|---|---|---|
+| ![Suggested program after three questions](docs/screenshots/advisor.png) | ![Machine tab with drum self-clean and usage](docs/screenshots/machine.png) | ![Help screen with error code E03 expanded](docs/screenshots/help.png) |
+
 ## Where the protocol comes from
 
 Most of the NFC protocol comes from the work of [@Gonvar](https://github.com/Gonvar),
