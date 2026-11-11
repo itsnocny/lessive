@@ -144,6 +144,7 @@ fun HomeScreen(
                     Text(stringResource(R.string.usual_hint), style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }
+            // A card left alone on its row takes the full width instead of leaving a hole.
             items(usual.chunked(2)) { pair ->
                 Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                     pair.forEach { u ->
@@ -157,7 +158,6 @@ fun HomeScreen(
                             modifier = Modifier.weight(1f),
                         )
                     }
-                    if (pair.size == 1) Spacer(Modifier.weight(1f))
                 }
             }
         }
